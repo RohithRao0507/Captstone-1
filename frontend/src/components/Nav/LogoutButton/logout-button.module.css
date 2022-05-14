@@ -1,0 +1,18 @@
+#logout-button {
+    display: inline-block;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    height: calc(var(--navbar-height) / 1.5);
+    line-height: calc(var(--navbar-height) / 1.5);
+    border-radius:var(--navbar-button-border-radii);
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border: 0px;
+}
+
+#logout-button:hover {
+    border: 1px solid var(--input-border-colour);
+}

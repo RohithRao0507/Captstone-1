@@ -1,0 +1,12 @@
+#error-message {
+    width: inherit;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--error-message-colour);
+    border: 1px solid black;
+    padding: 15px 10px;
+    position: relative;
+    margin-top: 10px;
+}

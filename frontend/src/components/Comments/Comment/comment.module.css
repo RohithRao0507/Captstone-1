@@ -1,0 +1,64 @@
+.root {
+    width: 50%;
+    position: relative;
+}
+
+.comment-container:not(.root) {
+    width: 100%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.comment {
+    border: 1px solid white;    
+    background: var(--comment-background-colour);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+}
+
+.replies {
+    border-left: 1px solid black;
+    border-collapse: collapse;
+}
+
+.toggle-edit-comment {
+    float: right;
+    margin-right: 10px;
+}
+
+.reply-to-comment-button, .toggle-edit-comment {
+    border: 0px;
+    background: var(--post-background-colour);
+    font-family: "Fira Sans", sans-serif;
+    color: grey;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reply-to-comment-button:hover, .toggle-edit-comment:hover {
+    background: rgb(238, 230, 230);
+}
+
+.hide-replies-button {
+    margin-top: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.hide-replies-button:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    .root {
+        width: 60%;
+    }
+
+    .comment-container:not(.root) {
+        margin-left: 25px;
+    }
+}

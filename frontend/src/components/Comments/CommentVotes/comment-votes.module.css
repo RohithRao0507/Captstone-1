@@ -1,0 +1,24 @@
+.comment-votes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: var(--votes-dist-to-left);
+    top: var(--votes-dist-to-top);
+}
+
+.comment-vote-count {
+    margin: 4px auto;
+}
+
+.upvote, .downvote {
+    display: block;
+    cursor: pointer;
+}
+
+.upvote {
+    margin-top: 5px;
+}
+
+.upvote:hover, .downvote:hover {
+    background-color: rgb(238, 230, 230);
+}
