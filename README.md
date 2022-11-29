@@ -5,8 +5,8 @@ The main purpose behind creating this community portal application is to bring t
 <h3>Technologies Used</h3>
 <h4>Backend</h4>
 <ul>
-  <li>nodejs</li>
-  <li>javascrit</li>
+  <li>python</li>
+  <li>django</li>
 </ul>
 <h4>Frontend</h4>
 <ul>
